@@ -1,0 +1,64 @@
+.container {
+    position: fixed; /* Sticks the navbar to the top */
+    top: 0;          /* Aligns it to the top edge */
+    left: 0;         /* Ensures it starts from the left edge */
+    right: 0;        /* Ensures it ends at the right edge */
+    z-index: 100000; /* Keeps the navbar above all other elements */
+    width: 100%;     /* Full width of the screen */
+    background-color: #ffffff; /* Add a solid background color */
+    
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    padding: 0;             /* Reset padding if any */
+    margin: 0;
+  }
+  
+  .card {
+    width: 100%;     /* Ensures the navbar's content spans full width */
+    max-width: 1280px; /* Optional: Limit content width for larger screens */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 8vh;     /* Consistent navbar height */
+  }
+  
+  .card > div {
+    display: flex;
+    gap: 2vw;
+    align-items: center;
+  }
+  
+  .inputContainer {
+    position: relative;
+  }
+  
+  .input {
+    width: 15vw;
+    height: 4.5vh;
+    padding-left: 30px;
+    font-size: 15px;
+    outline: none;
+    background: #f4f4f4;
+    border: 1px solid rgb(212, 212, 212);
+    border-radius: 5px;
+  }
+  
+  .input:focus {
+    border: 2px solid #fc3581;
+  }
+  
+  .content {
+    margin-top: 8vh; /* Push content below the navbar */
+  }
+  .card4{
+    height: 12vh;
+    color: white;
+     cursor:pointer; 
+}
+.card4~p{
+    font-weight: 600;
+}
+.card4~p:hover{
+     color: #fc3581;
+     cursor: pointer;
+}  

@@ -1,0 +1,42 @@
+.slider-container {
+    width: 100%;
+    left: 0;
+    right: 0;
+    position: fixed;
+    margin-top: 120px;
+  }
+  
+  .slider-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .slider-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Ensures the images scale properly */
+    border-radius: 10px; /* Optional, for rounded corners */
+  }
+  
+  .arrow {
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    border-radius: 50%;
+    font-size: 24px;
+    transform: translateY(-50%);
+  }
+  
+  .next {
+    right: 10px;
+  }
+  
+  .prev {
+    left: 10px;
+  }
+  
